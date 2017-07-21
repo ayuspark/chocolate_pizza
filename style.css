@@ -2,3 +2,134 @@
   border: 1px dashed skyblue;
   box-sizing: border-box;
 }
+
+/*_____HEADER STYLE________________________________________*/
+.inner {
+  height: 115px;
+  /*border-bottom: 10px dotted grey;*/
+  width: 903px;
+  margin: 20px auto;
+}
+
+/*#logo {
+  vertical-align: bottom;
+}*/
+
+#logo_tagline {
+  border: 1px solid red;
+  display: inline-block;
+  height: 55px;
+  vertical-align: top;
+}
+
+#logo_tagline h3, p {
+  margin: 0 1px;
+}
+
+#social_icon, #rss_print {
+  float: right;
+  margin: 15px 3px;
+  vertical-align: top;
+  height:
+}
+
+/*_____TITLE STYLE______________________________________*/
+.title {
+  width: 903px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  margin-bottom: 3px;
+}
+
+.title span {
+  color: grey;
+  margin-top: 0px;
+}
+
+#print  {
+  float: right;
+}
+
+/*_____HERO IMG STYLE______________________________________*/
+.banner {
+  clear:both;
+  border: 2px solid red;
+  display: block;
+  width: 903px;
+  margin: 15px auto;
+}
+
+/*_____ARTICLE STYLE______________________________________*/
+article {
+  width: 903px;
+  margin: 10px auto;
+}
+
+/*_____RECIPE SECTION STYLE_________________________________*/
+section {
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 903px;
+  height: 295px;
+  margin: 60px auto;
+  background-image: url("img/list-bg.png");
+}
+
+label {
+  width: 40%;
+  margin: 2px 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-flex;
+
+}
+
+input[type="checkbox"]:checked + label.strikethrough {
+  text-decoration: line-through;
+}
+
+/*_____FOOTER STYLE________________________________________*/
+footer {
+  width: 903px;
+  margin: 5px auto;
+  padding-bottom: 50px;
+}
+
+#van_pic {
+  display: block;
+  float: left;
+}
+
+#blogger_info {
+  float: left;
+  vertical-align: top;
+  width: 586px;
+}
+
+#blogger_info h3 {
+  margin: 8px auto;
+}
+
+#share {
+  float: right;
+  padding: 18px 42px;
+  margin: 8px auto;
+  background-color: #cc3700;
+}
+
+#rights {
+  clear: both;
+}
+
+#rights img {
+  width: 32px;
+  display: block;
+  margin: 33px auto;
+}
+
+#rights h5 {
+  text-align: center;
+  margin: 5px auto;
+}
