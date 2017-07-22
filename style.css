@@ -86,7 +86,6 @@ font-family: 'Open Sans Condensed', sans-serif;*/
 /*_____HERO IMG STYLE______________________________________*/
 .banner {
   clear:both;
-  border: 2px solid red;
   display: block;
   width: 903px;
   margin: 15px auto;
@@ -120,6 +119,9 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   display: inline-block;
+  font-family: 'Give You Glory', cursive;
+  font-size: 1.1em;
+  font-weight: 800;
 }
 
 input[type="checkbox"]:checked + span.strikethrough {
@@ -142,10 +144,21 @@ footer {
   float: left;
   vertical-align: top;
   width: 586px;
+  margin-left: 20px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #blogger_info h3 {
-  margin: 8px auto;
+  margin: 3px auto;
+  font-size: 1.4em;
+}
+
+#blogger_info p {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  color: grey;
 }
 
 #share {
@@ -153,6 +166,9 @@ footer {
   padding: 18px 42px;
   margin: 8px auto;
   background-color: #cc3700;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.3em;
+  color: white;
 }
 
 #rights {
@@ -168,4 +184,7 @@ footer {
 #rights h5 {
   text-align: center;
   margin: 5px auto;
+  font-family: 'Libre Baskerville', serif;
+  color: grey;
+  font-size: 0.7em;
 }
