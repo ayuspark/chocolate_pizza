@@ -1,14 +1,19 @@
 * {
-  border: 1px dashed skyblue;
+  /*border: 1px dashed skyblue;*/
   box-sizing: border-box;
 }
 
+/*font-family: 'Pacifico', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Give You Glory', cursive;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
 /*_____HEADER STYLE________________________________________*/
 .inner {
-  height: 115px;
+  height: 80px;
   /*border-bottom: 10px dotted grey;*/
   width: 903px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
 }
 
 /*#logo {
@@ -16,7 +21,7 @@
 }*/
 
 #logo_tagline {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: inline-block;
   height: 55px;
   vertical-align: top;
@@ -26,11 +31,27 @@
   margin: 0 1px;
 }
 
+#logo_tagline h3 {
+  font-family: "pacifico", cursive;
+  font-size: 35px;
+}
+
+#logo_tagline p {
+  font-size: 0.7em;
+  font-family: 'Fjalla One', sans-serif;
+  color: grey;
+}
+
 #social_icon, #rss_print {
   float: right;
   margin: 15px 3px;
   vertical-align: top;
-  height:
+}
+
+.dividing {
+  width: 903px;
+  clear: both;
+  margin: 0 auto;
 }
 
 /*_____TITLE STYLE______________________________________*/
@@ -41,15 +62,25 @@
 
 .title h1 {
   margin-bottom: 3px;
+  font-size: 3em;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .title span {
   color: grey;
   margin-top: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 0.7em;
+  font-weight: 200;
 }
 
 #print  {
   float: right;
+  /*color: grey;
+  margin-top: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  font-weight: 200;*/
 }
 
 /*_____HERO IMG STYLE______________________________________*/
@@ -67,6 +98,12 @@ article {
   margin: 10px auto;
 }
 
+article p {
+  font-family: 'Bellefair', serif;
+  font-size: 1.3em;
+  color: darkgrey;
+}
+
 /*_____RECIPE SECTION STYLE_________________________________*/
 section {
   padding-top: 10px;
@@ -77,16 +114,15 @@ section {
   background-image: url("img/list-bg.png");
 }
 
-label {
+.recipe span {
   width: 40%;
-  margin: 2px 35px;
+  margin: 2px 35pX;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: inline-flex;
-
+  display: inline-block;
 }
 
-input[type="checkbox"]:checked + label.strikethrough {
+input[type="checkbox"]:checked + span.strikethrough {
   text-decoration: line-through;
 }
 
@@ -126,7 +162,7 @@ footer {
 #rights img {
   width: 32px;
   display: block;
-  margin: 33px auto;
+  margin: 33px auto 20px auto;
 }
 
 #rights h5 {
